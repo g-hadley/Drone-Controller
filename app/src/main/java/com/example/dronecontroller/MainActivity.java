@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity{
                     DatagramSocket sock = new DatagramSocket();
 
                     // address of WiFi module
-                    InetAddress ip = InetAddress.getByName("192.168.1.11");
+                    InetAddress ip = InetAddress.getByName("192.168.4.1");
 
                     // create and send datagram
                     DatagramPacket packet = new DatagramPacket(buf, buf.length, ip, 8888);
